@@ -69,3 +69,50 @@ body
   left: 240px;
   z-index: 100;
 }
+
+.box{
+  width:5px;
+  height:10px;
+  border: 1px solid black;
+}
+
+.filledBoxOrange{
+  width:5px;
+  height:10px;
+  border: 1px solid black;
+  background:orange;
+}
+
+.filledBoxPink{
+  width:5px;
+  height:10px;
+  border: 1px solid black;
+  background:pink;
+}
+
+
+#konSquares{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#imgSquares{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+ul {
+    transform: rotate(180deg);
+}
+ul > li {
+    transform: rotate(-180deg);
+    list-style-type: none;
+}
+
+@media screen and (max-width: 1080px){
+  #konWrapper{
+    display:none;
+  }
+}
